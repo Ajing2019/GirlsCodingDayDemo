@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>卡片的页面</title>
+    <style>
+            html,body {
+          width: 100%;
+          height: 100%;
+        }
+        .big-box{
+            width: 1094px;
+            margin:0 auto;
+        }
+        .dou-title{
+            text-align: center;
+            font-size: 28px;
+            color: #333333;
+        }
+        .do-title{
+            text-align: center;
+            font-size: 20px;
+            color: #333333
+        }
+        .do-title{padding: 0;
+        }
+        /* 清除浮动 */
+        .clearfix::after{
+            content: "";
+            display: table;
+            clear: both;
+        }
+    
+        .dd-title{
+            list-style: none;
+            width: 20%;
+            float: left;
+            border: 1px solid #c7c7c7;
+            margin-right: 20px;
+            overflow: hidden;
+            border-radius: 20px;
+            text-align: center;
+            transition:.3s;
+        }
+        .dd-title:hover{
+            cursor: pointer;
+            transform: translateY(-10px);
+        }
+        .oo-title{
+
+            background-color:rgb(199, 218, 218);
+            width: 100%;
+            height: 63%;
+            margin: auto;
+           
+            text-align: center;
+            overflow: hidden;
+        }
+        .oo-title img{
+            width: 110px;
+            height: 200px;
+            margin: 8px;
+        }
+        .d-title{
+           
+        }
+            </style>
+
+</head>
+<body>
+    <div class="big-box">
+        <h1 class="dou-title">片卡</h1>
+        <p class="do-title">四个卡片</p>
+        <ul class="d-title ">
+            <li class="dd-title">
+                <div class="oo-title">
+                    <img src="digital-camera.svg">
+                </div>
+                <div class="little-box">
+                    <h2 class="uu-title">教程</h2>
+                    <p class="doudou-title">这个教程很厉害！</p>
+                </div>
+            </li>
+            <li class="dd-title">
+                <div class="oo-title">
+                    <img src="recycle.svg">
+                </div>
+                <div class="little-box">
+                    <h2 class="uu-title">指南</h2>
+                    <p class="doudou-title">这个教程很厉害！</p>
+                </div>
+            </li>
+            <li class="dd-title">
+                <div class="oo-title">
+                    <img src="wind-energy.svg">
+                </div>
+                <div class="little-box">
+                    <h2 class="uu-title">栗子</h2>
+                    <p class="doudou-title">这个教程很厉害！</p>
+                </div>
+            </li>
+            <li class="dd-title">
+                <div class="oo-title">
+                    <img src="zero-emission.svg">
+                </div>
+                <div class="little-box">
+                    <h2 class="uu-title">组件</h2>
+                    <p class="doudou-title">这个教程很厉害！</p>
+                </div>
+            </li>
+        
+        </ul>
+
+
+    </div>
+</body>
+</html>
